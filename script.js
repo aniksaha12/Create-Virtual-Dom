@@ -14,7 +14,7 @@ paragraph.textContent =
   "This is a simple dom example created with vanilla javascript";
 
 const button = document.createElement("button");
-button.textContent = "click me";
+button.textContent = "click me ";
 
 // Create an input field
 const inputField = document.createElement("input");
@@ -31,7 +31,7 @@ button.addEventListener("click", function () {
   alert("Thanks for click the button!");
 });
 
-// fetching data from an API
+// fetching data from an JSON API
 fetch("https://jsonplaceholder.typicode.com/todos/1")
   .then((response) => response.json())
   .then((data) => {
